@@ -5,12 +5,9 @@
 
 .menu_sidebar {
   position: fixed;
-  display: flex;
-  width: 12%;
-  height: 85%;
-  flex-direction: column;
+  width: 100%;
+  height: 100%;
   background-color: #DDDDDD;
-  bottom: 0;
 
   // Elemento que engloba as categorias de lista do menu
 
