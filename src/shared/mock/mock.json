@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "user": "teste",
+    "email": "teste@teste.com.br",
+    "card-vendas": "R$40,00",
+    "graficos": {
+      "results": "R$100,25"
+    }
+  }
+]
