@@ -73,10 +73,37 @@ Usar emojis nos commits pode tornar mais fácil identificar o propósito ou inte
 - :white_check_mark: `:white_check_mark:` ao adicionar testes
 - :recycle: `:recycle:` ao refatorar código
 
+# Guia de Código Limpo
 
 
 
+## 1. Nomeação
 
+- **Use nomes descritivos e pronunciáveis** para variáveis, funções e classes.
+- **Seja consistente** na nomeação. Se você começar a nomear suas variáveis em inglês, continue assim durante todo o projeto.
 
+## 2. Funções
 
+- As funções devem fazer **uma coisa só**. Se uma função está fazendo mais de uma coisa, considere dividir em funções menores.
+- O número de argumentos de uma função deve ser **o menor possível**.
+
+## 3. Comentários
+
+- Comentários são necessários, mas **não substituem código ruim**. Tente expressar-se no código antes de recorrer aos comentários.
+- Evite comentários óbvios que não acrescentam nada ao entendimento do código.
+
+## 4. Formatação
+
+- Siga um **guia de estilo** para garantir que seu código tenha uma aparência consistente.
+- Use **indentação e espaçamento adequados** para melhorar a legibilidade do código.
+
+## 5. Tratamento de Erros
+
+- Não ignore os erros pegos por blocos `try/catch`. Mesmo que você pense que o código nunca vai chegar ao `catch`, deixe-o lá para prevenir qualquer problema futuro.
+
+## 6. Código Duplicado
+
+- Evite duplicação de código. **"DRY - Don't Repeat Yourself"** é um princípio fundamental de desenvolvimento de software.
+
+Lembre-se, o objetivo é escrever código que seja limpo e fácil de entender. Isso não apenas torna o projeto mais gerenciável, mas também é uma ótima maneira de aprender e melhorar como desenvolvedor!
 
