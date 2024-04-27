@@ -1,27 +1,50 @@
-# PdvFront
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.3.
+# PDV Ponto de venda
+Este é um projeto de Ponto de Venda desenvolvido em Angular 17.
+## Pré-requisitos
 
-## Development server
+Antes de iniciar, certifique-se de ter o Node.js e o npm instalados em sua máquina. Você pode baixá-los e instalá-los a partir do [site oficial do Node.js](https://nodejs.org/).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Clonando o Projeto
 
-## Code scaffolding
+Para clonar o projeto, certifique-se de ter o Git instalado em sua máquina. Em seguida, execute o seguinte comando no seu terminal:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Clonando o Projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Para clonar o projeto, certifique-se de ter o Git instalado em sua máquina. Em seguida, execute o seguinte comando no seu terminal:
 
-## Running unit tests
+```bash
+git clone https://github.com/melmonfre/simplepdv-front.git
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalando o Angular CLI
 
-## Running end-to-end tests
+Se você ainda não tiver o Angular CLI instalado globalmente em sua máquina, execute o seguinte comando para instalá-lo:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+npm install -g @angular/cli
+```
 
-## Further help
+Após clonar o projeto, navegue até o diretório raiz do projeto e execute o seguinte comando para instalar as dependências:
+```bash
+npm install
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Este comando instalará todas as dependências necessárias para executar o projeto.
+
+## Executando o Projeto
+
+Depois de instalar as dependências, você pode iniciar o servidor de desenvolvimento executando:
+```bash
+npm start
+```
+Isso iniciará o servidor de desenvolvimento e abrirá o projeto em seu navegador padrão.
+
+## Contribuindo
+
+Se você deseja contribuir para este projeto, sinta-se à vontade para enviar pull requests. Certifique-se de seguir as diretrizes de contribuição do projeto.
+
+
+
+
