@@ -73,7 +73,7 @@ Usar emojis nos commits pode tornar mais fácil identificar o propósito ou inte
 - :white_check_mark: `:white_check_mark:` ao adicionar testes
 - :recycle: `:recycle:` ao refatorar código
 
-Lembre-se, o mais importante é manter a consistência ao longo do seu projeto. Escolha um padrão que funcione para você e sua equipe e atenha-se a ele!
+
 
 
 
