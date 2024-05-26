@@ -1,9 +1,4 @@
-//PRIMARY
-$primary-color: #5497de;
-//SECONDARY
-$secondary-color: #de5e54;
-
-//BACKGORUND
-$background-low: #1e2833;
-$background-medium: #272d34;
-$background-high: #53595e;
+@import "styles/variables";
+* {
+  font-family: "Inter", sans-serif;
+}
